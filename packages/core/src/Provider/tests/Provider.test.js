@@ -2,8 +2,8 @@
 
 import React from "react";
 import { shallow, mount } from "enzyme";
-import { ThemeProvider as MuiThemeProvider } from "@material-ui/core";
-import { createTheme } from "@material-ui/core/styles";
+import { createTheme } from "@mui/material";
+import { ThemeProvider as MuiThemeProvider } from "@mui/styles";
 import ConfigContext from "../context";
 import HvProvider from "../Provider";
 import useLocale from "../useLocale";
