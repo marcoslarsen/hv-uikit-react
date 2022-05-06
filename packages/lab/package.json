@@ -9,8 +9,8 @@
   },
   "sideEffects": false,
   "exports": {
-    ".": "./dist/modern/index.js",
-    "./dist/": "./dist/modern/"
+    ".": "./dist/index.js",
+    "./dist/": "./dist/"
   },
   "main": "./dist/index.js",
   "module": "./dist/legacy/index.js",
